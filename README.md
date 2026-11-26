@@ -30,6 +30,9 @@ RoPro
 
 2. Download the CSS Here: [Install Oppenantimodernism](https://github.com/sketchybazooka4090/OppenAntiModernism/raw/refs/heads/main/Oppenantimodernism.user.css)
 
+3. Click "Install Style"
+
+
 # Credits
 Bloxxia - https://bloxxia.de
 
