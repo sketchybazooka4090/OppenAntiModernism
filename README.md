@@ -3,7 +3,7 @@ Revert Roblox's recent topbar changes and website changes in general, including 
 
 This includes: Derounding corners, replacing icons.
 
-Compaitable with:
+# Compaitable with
 Roseal
 BTRoblox (BUGGY!)
 RoSeal
@@ -13,12 +13,12 @@ Efaz's Font changer
 RoPro
 
 -------------------------
-Not Compatible or Broken:
+# Not Compatible or Broken
 RoGold
 
 For More information, this project is open-source.
 
-Credits:
+# Credits
 Bloxxia - https://bloxxia.de
 Userstyles-World https://userstyles.world
 Stylus
