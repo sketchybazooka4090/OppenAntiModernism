@@ -1,0 +1,456 @@
+/* ==UserStyle==
+@name           Oppenantimodernism
+@namespace      Oppenantimodernism
+@version        1.0.0.00
+@description    Replace Modern ROBLOX Topbar Icons with 2020 and Older Icons
+@author         MasterKobloxxer
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("roblox.com") {
+
+
+    :root {
+
+        --classic-icon-size: 28px;
+
+        /* SETTINGS - DEFAULT OUTLINE */
+
+        --settings-normal: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath d='M54 8H74V20L85 25L94 16L112 34L103 43L108 54H120V74H108L103 85L112 94L94 112L85 103L74 108V120H54V108L43 103L34 112L16 94L25 85L20 74H8V54H20L25 43L16 34L34 16L43 25L54 20Z' fill='none' stroke='%2337393b' stroke-width='9' stroke-linejoin='round'/%3E%3Ccircle cx='64' cy='64' r='26' fill='none' stroke='%2337393b' stroke-width='9'/%3E%3C/svg%3E");
+
+        /* SETTINGS - HOVER SOLID */
+
+        --settings-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath d='M54 8H74V20L85 25L94 16L112 34L103 43L108 54H120V74H108L103 85L112 94L94 112L85 103L74 108V120H54V108L43 103L34 112L16 94L25 85L20 74H8V54H20L25 43L16 34L34 16L43 25L54 20Z M64 34A30 30 0 1 0 64 94A30 30 0 1 0 64 34Z' fill='%2337393b' fill-rule='evenodd' stroke='%2337393b' stroke-width='2' stroke-linejoin='round'/%3E%3C/svg%3E");
+
+        /* ROBUX - DEFAULT DARK */
+
+        --robux-normal: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath d='M54 8Q64 2 74 8L110 29Q120 35 120 47V81Q120 93 110 99L74 120Q64 126 54 120L18 99Q8 93 8 81V47Q8 35 18 29Z' fill='none' stroke='%2337393b' stroke-width='9'/%3E%3Cpath d='M57 23Q64 19 71 23L96 38Q103 42 103 50V78Q103 86 96 90L71 105Q64 109 57 105L32 90Q25 86 25 78V50Q25 42 32 38Z M49 49H79V79H49Z' fill='%2337393b' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+        /* ROBUX - HOVER GRAY */
+
+        --robux-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cpath d='M54 8Q64 2 74 8L110 29Q120 35 120 47V81Q120 93 110 99L74 120Q64 126 54 120L18 99Q8 93 8 81V47Q8 35 18 29Z' fill='none' stroke='%23717375' stroke-width='9'/%3E%3Cpath d='M57 23Q64 19 71 23L96 38Q103 42 103 50V78Q103 86 96 90L71 105Q64 109 57 105L32 90Q25 86 25 78V50Q25 42 32 38Z M49 49H79V79H49Z' fill='%23717375' fill-rule='evenodd'/%3E%3C/svg%3E");
+
+        /* NOTIFICATIONS - DEFAULT OUTLINE */
+
+        --notifications-normal: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Crect x='9' y='9' width='110' height='110' rx='27' fill='none' stroke='%2337393b' stroke-width='10'/%3E%3Cpath d='M28 34H100M28 54H100M28 74H100M28 94H100' stroke='%2337393b' stroke-width='10' stroke-linecap='round'/%3E%3C/svg%3E");
+
+        /* NOTIFICATIONS - HOVER SOLID */
+
+        --notifications-hover: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 128'%3E%3Cdefs%3E%3Cmask id='m'%3E%3Crect width='128' height='128' fill='white'/%3E%3Cpath d='M28 34H100M28 54H100M28 74H100M28 94H100' stroke='black' stroke-width='10' stroke-linecap='round'/%3E%3C/mask%3E%3C/defs%3E%3Crect x='4' y='4' width='120' height='120' rx='30' fill='%2337393b' mask='url(%23m)'/%3E%3C/svg%3E");
+
+    }
+
+
+ 
+    html body span#nav-settings.icon,
+    html body span#nav-robux.icon,
+    html body span#common-notification-bell.icon {
+
+        display: inline-block !important;
+
+        width: var(--classic-icon-size) !important;
+        height: var(--classic-icon-size) !important;
+
+        min-width: var(--classic-icon-size) !important;
+        min-height: var(--classic-icon-size) !important;
+
+        max-width: var(--classic-icon-size) !important;
+        max-height: var(--classic-icon-size) !important;
+
+        flex: 0 0 var(--classic-icon-size) !important;
+
+        padding: 0 !important;
+        margin: 0 !important;
+
+        vertical-align: middle !important;
+
+        background: transparent !important;
+
+        mask: none !important;
+        mask-image: none !important;
+
+        -webkit-mask: none !important;
+        -webkit-mask-image: none !important;
+
+        color: transparent !important;
+        fill: transparent !important;
+
+        border: none !important;
+        box-shadow: none !important;
+
+        opacity: 1 !important;
+        filter: none !important;
+
+        transition: none !important;
+
+    }
+
+
+  
+
+    html body span#nav-settings.icon::before,
+    html body span#nav-settings.icon::after,
+
+    html body span#nav-robux.icon::before,
+    html body span#nav-robux.icon::after,
+
+    html body span#common-notification-bell.icon::before,
+    html body span#common-notification-bell.icon::after {
+
+        content: none !important;
+        display: none !important;
+
+        background: none !important;
+
+        mask: none !important;
+        -webkit-mask: none !important;
+
+    }
+
+
+
+
+    html body span#nav-settings.icon {
+
+        background:
+            var(--settings-normal)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+
+
+    html body span#nav-settings.icon:hover,
+
+    html body #settings-icon:hover
+        span#nav-settings.icon,
+
+    html body button.btn-navigation-nav-settings-md:hover
+        span#nav-settings.icon,
+
+    html body button[aria-label="Settings"]:hover
+        span#nav-settings.icon {
+
+        background:
+            var(--settings-hover)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+ 
+
+    html body button[aria-label="Settings"][aria-expanded="true"]
+        span#nav-settings.icon,
+
+    html body button.btn-navigation-nav-settings-md[data-state="open"]
+        span#nav-settings.icon {
+
+        background:
+            var(--settings-hover)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+
+
+    html body span#nav-robux.icon {
+
+        background:
+            var(--robux-normal)
+            center / contain
+            no-repeat transparent !important;
+
+        mask-image: none !important;
+        -webkit-mask-image: none !important;
+
+        opacity: 1 !important;
+        filter: none !important;
+
+    }
+
+
+   
+
+    html body span#nav-robux.icon:hover,
+
+    html body button:hover
+        span#nav-robux.icon,
+
+    html body a:hover
+        span#nav-robux.icon,
+
+    html body [role="button"]:hover
+        span#nav-robux.icon {
+
+        background:
+            var(--robux-hover)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+  
+
+    html body button[aria-expanded="true"]
+        span#nav-robux.icon,
+
+    html body button[data-state="open"]
+        span#nav-robux.icon {
+
+        background:
+            var(--robux-hover)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+
+
+    html body span#common-notification-bell.icon {
+
+        background:
+            var(--notifications-normal)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+   
+
+    html body span#common-notification-bell.icon:hover,
+
+    html body button:hover
+        span#common-notification-bell.icon,
+
+    html body a:hover
+        span#common-notification-bell.icon,
+
+    html body [role="button"]:hover
+        span#common-notification-bell.icon {
+
+        background:
+            var(--notifications-hover)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+
+
+    html body button[aria-expanded="true"]
+        span#common-notification-bell.icon,
+
+    html body button[data-state="open"]
+        span#common-notification-bell.icon {
+
+        background:
+            var(--notifications-hover)
+            center / contain
+            no-repeat transparent !important;
+
+    }
+
+
+html body section[aria-label="Chat"],
+html body section[aria-label="Chat"] .react-chat-top-radius,
+html body .react-chat-top-radius {
+    border-radius: 0px !important;
+
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+
+html body button:has(#common-notification-bell) {
+    --color-state-hover: rgba(2, 183, 87, 0.15) !important;
+    --color-state-press: rgba(2, 183, 87, 0.25) !important;
+}
+
+html body button:has(#common-notification-bell)
+[data-testid="foundation-web-state-layer"] {
+    border-radius: 0 !important;
+}
+
+html body button:has(#common-notification-bell):hover
+[data-testid="foundation-web-state-layer"] {
+    background-color: rgba(2, 183, 87, 0.15) !important;
+}
+
+html body button:has(#common-notification-bell):active
+[data-testid="foundation-web-state-layer"] {
+    background-color: rgba(2, 183, 87, 0.25) !important;
+}
+
+
+html body .foundation-web-menu.nav-foundation-menu {
+    border-radius: 0px !important;
+}
+
+
+
+html body .nav-foundation-menu .foundation-web-menu-item {
+    border-radius: 0px !important;
+}
+
+
+
+html body .nav-foundation-menu
+[data-testid="foundation-web-state-layer"] {
+    border-radius: 0px !important;
+}
+
+
+
+html body .nav-foundation-menu [role="group"] {
+    border-radius: 0px !important;
+}
+
+
+
+
+html body button[role="checkbox"][data-slot="checkbox"] {
+    border-radius: 0px !important;
+}
+
+
+
+html body button[role="checkbox"][data-slot="checkbox"]
+[data-testid="foundation-web-state-layer"] {
+    border-radius: 0px !important;
+}
+
+
+
+
+html body img[src^="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSI1Ni"] {
+
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23000000' fill-rule='evenodd' d='M20 0L100 20L80 100L0 80Z M44.6 40.9L59.1 44.6L55.4 59.1L40.9 55.4Z'/%3E%3C/svg%3E") !important;
+
+    object-fit: contain !important;
+}
+
+
+html body.dark-theme img[src^="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSI1Ni"],
+
+html .dark img[src^="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSI1Ni"] {
+
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23FFFFFF' fill-rule='evenodd' d='M20 0L100 20L80 100L0 80Z M44.6 40.9L59.1 44.6L55.4 59.1L40.9 55.4Z'/%3E%3C/svg%3E") !important;
+
+    object-fit: contain !important;
+}
+
+
+
+
+
+html body .private-message-action-buttons {
+
+    --classic-button-bg: #f2f4f5;
+    --classic-button-text: #000000;
+    --classic-button-border: #757575;
+    --classic-button-hover: #e3e5e7;
+    --classic-button-pressed: #d5d7d9;
+
+}
+
+
+
+
+html.dark .private-message-action-buttons,
+html .dark .private-message-action-buttons,
+html.dark-theme .private-message-action-buttons,
+html .dark-theme .private-message-action-buttons,
+html [data-theme="dark"] .private-message-action-buttons {
+
+    --classic-button-bg: #232527;
+    --classic-button-text: #ffffff;
+    --classic-button-border: #ffffff;
+    --classic-button-hover: #393b3d;
+    --classic-button-pressed: #191b1d;
+
+}
+
+
+
+
+html body .private-message-action-buttons
+button.foundation-web-button {
+
+    background-color: var(--classic-button-bg) !important;
+
+    color: var(--classic-button-text) !important;
+
+    border: 1px solid var(--classic-button-border) !important;
+
+    border-radius: 8px !important;
+
+    box-sizing: border-box !important;
+
+    box-shadow: none !important;
+
+    font-weight: 500 !important;
+
+}
+
+
+
+
+html body .private-message-action-buttons
+button.foundation-web-button span,
+
+html body .private-message-action-buttons
+button.foundation-web-button .icon {
+
+    color: var(--classic-button-text) !important;
+
+}
+
+
+
+
+html body .private-message-action-buttons
+button.foundation-web-button:hover {
+
+    background-color: var(--classic-button-hover) !important;
+
+    color: var(--classic-button-text) !important;
+
+    border-color: var(--classic-button-border) !important;
+
+}
+
+
+
+
+html body .private-message-action-buttons
+button.foundation-web-button:active {
+
+    background-color: var(--classic-button-pressed) !important;
+
+}
+
+
+
+
+html body .private-message-action-buttons
+[data-testid="foundation-web-state-layer"] {
+
+    background-color: transparent !important;
+
+    border-radius: inherit !important;
+
+}
+}
+
