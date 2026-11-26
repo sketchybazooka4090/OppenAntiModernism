@@ -24,11 +24,11 @@ Efaz's Font changer
 
 RoPro
 
--------------------------
-# Not Compatible or Broken
-RoGold
+## Installation:
 
-For More information, this project is open-source.
+1. Install Stylus
+
+2. Download the CSS Here: [Install Oppenantimodernism](https://github.com/sketchybazooka4090/OppenAntiModernism/raw/refs/heads/main/Oppenantimodernism.user.css)
 
 # Credits
 Bloxxia - https://bloxxia.de
@@ -36,3 +36,4 @@ Bloxxia - https://bloxxia.de
 Userstyles-World https://userstyles.world
 
 Stylus: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+
