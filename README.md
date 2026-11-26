@@ -1,12 +1,13 @@
 # OppenAntiModernism
 ## Screenshots
 
-### Highlight
+### Highlight (Using other CSS Mods alongside it)
 ![Main Highlight](screenshots/Main%20Highlight.png)
 
 Revert Roblox's recent topbar changes and website changes in general, including settings, notifications, messages, and chat.
 
-This includes: Derounding corners, replacing icons.
+This includes: Derounding corners, replacing icons, and CSS Tweaks, Compatiable with Many other CSS Mods.
+
 ---------------------------
 # Compaitable with
 Roseal
