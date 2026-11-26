@@ -26,5 +26,7 @@ For More information, this project is open-source.
 
 # Credits
 Bloxxia - https://bloxxia.de
+
 Userstyles-World https://userstyles.world
-Stylus
+
+Stylus: https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
